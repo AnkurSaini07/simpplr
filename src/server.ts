@@ -47,3 +47,4 @@ app.get("/shopsWithReviews", async (req, res) => {
 app.listen(Number(process.env.PORT), process.env.HOST, () => {
     return console.log(`server is listening on ${process.env.PORT}`);
 });
+
