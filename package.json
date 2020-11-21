@@ -1,0 +1,24 @@
+{
+  "name": "simpplr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -b",
+    "start": "node --require ts-node/register src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "yelp-fusion": "^3.0.0"
+  }
+}
